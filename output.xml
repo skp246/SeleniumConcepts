@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20210323 13:06:07.771" schemaversion="2" generator="Robot 4.0 (Python 2.7.16 on win32)">
+<suite source="C:\SANAT\Learning\Robot_workspace\Selenium_Project" id="s1" name="Selenium Project">
+<suite source="C:\SANAT\Learning\Robot_workspace\Selenium_Project\royalcaribbean_Suite" id="s1-s1" name="royalcaribbean Suite">
+<suite source="C:\SANAT\Learning\Robot_workspace\Selenium_Project\royalcaribbean_Suite\Signup_tests.robot" id="s1-s1-s1" name="Signup tests">
+<test id="s1-s1-s1-t1" name="TC01_Login">
+<kw name="Open Browser" library="Selenium2Library">
+<arg>https://www.royalcaribbean.com/</arg>
+<arg>gc</arg>
+<doc>Opens a new browser instance to given URL.</doc>
+<msg timestamp="20210323 13:06:08.578" level="INFO">Opening browser 'gc' to base url 'https://www.royalcaribbean.com/'</msg>
+<status status="PASS" endtime="20210323 13:06:32.411" starttime="20210323 13:06:08.577"/>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20210323 13:06:36.593" starttime="20210323 13:06:32.414"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="Selenium2Library">
+<arg>30s</arg>
+<doc>Sets Selenium 2's default implicit wait in seconds and
+sets the implicit wait for all open browsers.</doc>
+<status status="PASS" endtime="20210323 13:06:36.611" starttime="20210323 13:06:36.600"/>
+</kw>
+<status status="PASS" endtime="20210323 13:06:36.612" starttime="20210323 13:06:08.576"/>
+</test>
+<status status="PASS" endtime="20210323 13:06:36.618" starttime="20210323 13:06:07.951"/>
+</suite>
+<status status="PASS" endtime="20210323 13:06:36.635" starttime="20210323 13:06:07.941"/>
+</suite>
+<status status="PASS" endtime="20210323 13:06:36.647" starttime="20210323 13:06:07.906"/>
+</suite>
+<statistics>
+<total>
+<stat fail="0" skip="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" skip="0" id="s1" name="Selenium Project" pass="1">Selenium Project</stat>
+<stat fail="0" skip="0" id="s1-s1" name="royalcaribbean Suite" pass="1">Selenium Project.royalcaribbean Suite</stat>
+<stat fail="0" skip="0" id="s1-s1-s1" name="Signup tests" pass="1">Selenium Project.royalcaribbean Suite.Signup tests</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
